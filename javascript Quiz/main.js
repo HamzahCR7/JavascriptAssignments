@@ -10,7 +10,7 @@ var scoreupdate;
 questions = [
     {
         number: 0,
-        question: '1.Who has scored most goals among them?',
+        question: '1.Who has won the most champions league?',
         choices: ['Leo Messi', 'Cristiano Ronaldo', 'Neymar', 'Kaka'],
         answer: 1
     },

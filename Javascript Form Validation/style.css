@@ -1,0 +1,87 @@
+body{
+    background-color: rgba(0, 0, 0, 0.329);
+    color: beige;
+    font-style: oblique;
+}
+.one{
+    color: rgb(80, 98, 255);
+}
+.two{
+    color: rgba(100, 24, 48, 0.295);
+}
+.three{
+    color: rgba(174, 19, 179, 0.637);
+}
+header{
+    margin: 25px;
+  text-align: center;  
+  font-size: 50px;
+}
+
+#container{
+ width: 500px;
+    margin: 0 auto;
+    /* padding: 10px0; */
+}
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid rgba(0, 255, 255, 0.329);
+    
+    margin-top: 40%;
+    padding: 10px 10px 10px 10px ;
+    border-radius: 12px;
+}
+
+.nameArea{
+    padding: 10px;
+}
+#name{
+    width: 300px;
+    color: white;
+    background: black;
+    height: 40px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.passArea{
+    padding: 10px;
+}
+#password{
+    width: 300px;
+    color: white;
+    background: black;
+    height: 40px;
+    border-radius: 12px;
+        font-size: 20px;
+
+}
+.btns{
+    /*  */
+    word-spacing: 4px;
+    margin: 10px;
+
+}
+#submit{
+    width: 100px;
+        height: 50px;
+
+    color: white;
+    background-color: rgba(0, 153, 255, 0.712);
+        margin-left: 65px;
+        font-size: 20px;
+        border-radius: 15px;
+
+
+}
+
+.errorName{
+    color: red;
+}
+.successName{
+    color: green;
+    
+}
